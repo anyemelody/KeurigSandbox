@@ -37,7 +37,7 @@ function setup() {
   tempDiv.style("font-size", "24px");
   tempDiv.style("color", "#5C2F29");
   tempDiv.position(width1 / 2 - 160, height1 / 2 - 55);
-  sliderTemp = createSlider(0, 360, 200);
+  sliderTemp = createSlider(100, 360, 200);
   sliderTemp.position(width1 / 2, height1 / 2 - 50);
   sliderTemp.style("width", width1 / 6 + "px");
   strengthDiv = createDiv("Strength");
